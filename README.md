@@ -82,7 +82,7 @@ HyprFlux is a meticulously crafted collection of configuration files designed to
 
 ```bash
 pacman -S --needed git base-devel
-git clone --depth 1 https://github.com/Crowdrocker/Snaps-HyprFlux.git ~Snaps-HyprFlux
+git clone --depth 1 https://github.com/Crowdrocker/Snaps-HyprFlux.git ~/Snaps-HyprFlux
 cd ~/Snaps-HyprFlux
 .install.sh
 ```
