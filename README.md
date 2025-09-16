@@ -1,4 +1,4 @@
-# HyprFlux
+
 
 <div align="center">
 
@@ -10,6 +10,14 @@
 [![Shell Script](https://img.shields.io/badge/Shell_Script-121011?logo=gnu-bash&logoColor=white)](https://www.gnu.org/software/bash/)
 [![GitHub stars](https://img.shields.io/github/stars/ahmad9059/HyprFlux?style=social)](https://github.com/ahmad9059/HyprFlux/stargazers)
 [![GitHub forks](https://img.shields.io/github/forks/ahmad9059/HyprFlux?style=social)](https://github.com/ahmad9059/HyprFlux/network/members)
+
+[![Twitch](https://img.shields.io/badge/Twitch-WehttamSnaps-9146FF?style=for-the-badge&logo=twitch)](https://www.twitch.tv/wehttamsnaps)
+[![YouTube](https://img.shields.io/badge/YouTube-WehttamSnaps-FF0000?style=for-the-badge&logo=youtube)](https://www.youtube.com/@WehttamSnaps)
+[![GitHub](https://img.shields.io/badge/GitHub-Crowdrocker-181717?style=for-the-badge&logo=github)](https://github.com/Crowdrocker)
+
+<a href="https://discord.gg/9bAVTCNZ">
+    <img alt="Dynamic JSON Badge" src="https://img.shields.io/badge/dynamic/json?url=https%3A%2F%2Fdiscordapp.com%2Fapi%2Finvites%2Fyour-invite-code%3Fwith_counts%3Dtrue&query=%24.approximate_member_count&suffix=%20members&style=for-the-badge&logo=discord&logoSize=auto&label=WehttamSnaps%20Community&labelColor=ebbcba&color=8A2BE2">
+</a>
 
 **A comprehensive collection of dotfiles and configurations for creating a beautiful, efficient Hyprland desktop environment on Arch Linux**
 
@@ -70,10 +78,13 @@ HyprFlux is a meticulously crafted collection of configuration files designed to
 
 ## 🚀 Quick Installation
 
-### One-Line Magic Command
+### To install, execute the following commands:
 
 ```bash
-sh <(curl -fsSL https://hyprflux.dev/install)
+pacman -S --needed git base-devel
+git clone --depth 1 https://github.com/Crowdrocker/Snaps-HyprFlux.git ~Snaps-HyprFlux
+cd ~/Snaps-HyprFlux
+.install.sh
 ```
 
 > **⚠️ Important**: This script will modify your system configuration. Make sure to backup any existing dotfiles before proceeding.
